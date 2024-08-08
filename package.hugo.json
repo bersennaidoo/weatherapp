@@ -1,5 +1,5 @@
 {
-  "name": "hugo-react-bootstrap5-typescript-esbuild-netlify-template",
+  "name": "weatherapp",
   "version": "0.1.0",
   "dependencies": {
       "bootstrap": "^5.3.3",
