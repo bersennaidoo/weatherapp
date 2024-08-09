@@ -1,3 +1,7 @@
 {{ define "main" }}
-{{ .Title }}
+<div id="intro">
+    {{ partial "home/welcome.html" . }}
+    {{ partial "home/facilities.html" . }}
+    {{ partial "home/cta.html" . }}
+</div>
 {{ end }}
