@@ -1,0 +1,7 @@
+body {
+  background-color: #ccc; }
+
+.myImg {
+  object-fit: cover;
+  max-width: 100%;
+  object-position: center; }

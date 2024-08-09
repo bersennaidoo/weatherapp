@@ -1,6 +1,8 @@
 {{ define "main" }}
-{{ partial "about/weights.html" . }}
-{{ partial "about/cardio.html" . }}
-{{ partial "about/training.html" . }}
-{{ partial "about/exercises.html" . }}
+  <div class="row bg-white p-4">
+    <div class="col-md-4">{{ partial "about/weights.html" . }}</div>
+    <div class="col-md-4">{{ partial "about/cardio.html" . }}</div>
+    <div class="col-md-4">{{ partial "about/training.html" . }}</div>
+  </div>
+<div class="container mt-3 fs-5">{{ partial "about/exercises.html" . }}</div>
 {{ end }}

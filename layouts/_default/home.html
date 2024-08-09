@@ -1,5 +1,6 @@
 {{ define "main" }}
-<div id="intro">
+ {{ partial "home/hero.html" . }}
+<div id="intro" class="bg-white p-3 p-2 mb-4 fs-5">
     {{ partial "home/welcome.html" . }}
     {{ partial "home/facilities.html" . }}
     {{ partial "home/cta.html" . }}
