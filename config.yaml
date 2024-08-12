@@ -2,6 +2,7 @@ baseURL: 'https://example.org/'
 languageCode: 'en-us'
 title: 'Ultra Fitness Club'
 enableGitInfo: true
+pluralizelisttitles: false
 
 module:
   mounts:

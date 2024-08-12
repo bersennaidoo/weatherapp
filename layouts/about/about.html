@@ -1,8 +1,60 @@
 {{ define "main" }}
-  <div class="row bg-white p-4">
-    <div class="col-md-4">{{ partial "about/weights.html" . }}</div>
-    <div class="col-md-4">{{ partial "about/cardio.html" . }}</div>
-    <div class="col-md-4">{{ partial "about/training.html" . }}</div>
+{{ partial "genheader.html" . }}
+<main class="container mb-5">
+  <div class="row">
+    <div class="col-md-7">
+      <h2 class="display-3">Weights</h2>
+      <p class="lead">
+        Our facility includes a weight training area with several weight options. Build lean muscle with weights and
+        improve your core with weight training.
+      </p>
+      <ul>
+        <li>Dumbbells</li>
+        <li>Kettle bells</li>
+        <li>Barbells</li>
+      </ul>
+    </div>
+    <div class="col-md-5">
+      <img src="/img/592x333.png" alt="Two people working out with a weight in each hand" class="img-fluid rounded">
+    </div>
   </div>
-<div class="container mt-3 fs-5">{{ partial "about/exercises.html" . }}</div>
+  <hr class="my-5">
+
+  <div class="row">
+    <div class="col-md-7 order-2">
+      <h2 class="display-3">Cardio</h2>
+      <p class="lead">
+        Burn fat through cardio workouts, Experts recommend 150 minutes of cardio 
+        each week. We have several equipment choices for your workout.
+      </p>
+      <ul>
+        <li>Treadmills</li>
+        <li>Elliptical Machines</li>
+        <li>Exercise Bikes</li>
+      </ul>
+    </div>
+    <div class="col-md-5">
+      <img src="/img/592x333.png" alt="Cardio Equipment" class="img-fluid rounded">
+    </div>
+  </div>
+  
+  <hr class="my-5">
+  <div class="row">
+    <div class="col-md-7">
+      <h2 class="display-3">Personal Training</h2>
+      <p class="lead">
+        Our certified personal trainers work with you to help you obtain your 
+        fitness goals and track your progress. Personal training has many benefits.
+      </p>
+      <ul>
+        <li>Accountability</li>
+        <li>Personalized Program</li>
+        <li>Consistent Support and Motivation</li>
+      </ul>
+    </div>
+    <div class="col-md-5">
+      <img src="/img/592x333.png" alt="Personal Training" class="img-fluid rounded">
+    </div>
+  </div>
+</main>
 {{ end }}

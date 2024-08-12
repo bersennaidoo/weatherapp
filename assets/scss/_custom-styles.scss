@@ -1,0 +1,27 @@
+// Create a custom jumbotron component that extends various Bootstrap 5 classes
+.jumbotron {
+  @extend .bg-light, .py-5, .mb-5;
+}
+.jumbotron-heading {
+  @extend .container, .display-1, .text-center, .mb-0;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/home/2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.welcome {
+  position: absolute;
+  top: 20%;
+  margin: auto;
+  padding: 2em;
+}
+
+.welcome p {
+  font-size: 1.25em;
+  width: 70%;
+  line-height: 1.5;
+}
